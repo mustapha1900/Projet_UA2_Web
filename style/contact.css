@@ -3,7 +3,7 @@
 header {
     background-color: #D3D3D3;
    
-    text-align: center; /* Centre le contenu du header */
+    text-align: center; 
 }
 
 header a {
@@ -16,8 +16,8 @@ header a:hover {
 }
 
 h1 {
-    margin: 10px ; /* Ajoute une marge au-dessus et en dessous du titre */
-    color: black; /* Assurez-vous que la couleur du texte est spécifiée */
+    margin: 10px ; 
+    color: black; 
 }
        
 body { 
@@ -29,7 +29,7 @@ form {
     background-color: #fff;
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
 }
 
 label {
