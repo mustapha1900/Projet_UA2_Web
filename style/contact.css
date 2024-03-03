@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
+
+header {
+    background-color: #D3D3D3;
+   
+    text-align: center; /* Centre le contenu du header */
+}
+
+header a {
+    color: black;
+    text-decoration: none; 
+}
+
+header a:hover {
+   color: orange;
+}
+
+h1 {
+    margin: 10px ; /* Ajoute une marge au-dessus et en dessous du titre */
+    color: black; /* Assurez-vous que la couleur du texte est spécifiée */
+}
+       
+body { 
+        font-family: "Oswald" , Arial ; 
+    }     
+form {
+    max-width: 600px;
+    margin:  auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10 px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:orange;
+}
+
+nav>ul>li{
+    list-style: none;
+}
+a {
+    float: right;
+    margin: 10px;
+}

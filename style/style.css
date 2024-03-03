@@ -1,44 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
 
-header { background-color: #D3D3D3 ; /* mettre le fond colore*/
-   padding: 5px; }
+header {
+         background-color: #D3D3D3;  
+}
+.wrapper{
+        max-width: 1200px;
+        margin: 0 auto; }
 
- span { color: orange;}  /* pour le colorer la 2eme partie du logo*/
+span { 
+        color: orange;}  /* pour le colorer la 2eme partie du logo*/
 
-nav,ul , li,a { color: black;}
-
-.wrapper { max-width: 1000px;  /*pour determiner la marche maximale du warrper*/
-            margin: 0 auto;}
+a { 
+        color: black;}
 
 body { 
-    font-family: "Oswald" , Arial ; /*ajouter la nouveau uploader depuis googlefont*/
+        font-family: "Oswald" , Arial ; /*ajouter la nouveau uploader depuis googlefont*/
 } 
-.logo, nav, nav>ul>li { display: inline-block   
-}      /*pour aligner les li et le logo dans la meme ligne*/
+.logo, nav , nav li {
+        display: inline-block; }
 
- nav >ul >li {
-    margin-right: 15px;   }   /*Pour espacer les li*/ 
+.logo,nav{
+        width: 45%;}
+a {
+        margin-right: 10px; 
+       }   /*Pour espacer les li*/ 
 
-.logo , nav{ width: 100%;}    /* la largeur doit etre a 100%*/
+.logo {
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: bold;
+      color: black;
+      text-decoration: none;
+  }
 
-.logo { text-transform: uppercase;  /*transforme le texte en majuscules et ajuste la taille et l epaisseur de la police*/
-        font-size: 25px;   
-         font-weight: bold; }
-
-
-nav { text-align: right;  /* aligne le texte à l'intérieur de l'élément à droite*/
-    position: fixed;      /* fixer la position*/    
-    top: 0;                
-    left: 0;
-    width: 90%;
-   }
-
-li { list-style: none;}  /*pour enlver les points associes avec li*/
+li { 
+      list-style: none;
+      margin-right: 10px;}  /*pour enlver les points associes avec li*/
 
 a:hover{
-    color: orange;   /*quand on met le curseur sur a ca color en orange*/
+    
+      color: orange;   /*quand on met le curseur sur a ca color en orange*/
 }
-a{ text-decoration: none;}  /*enlever les soulignements sur li*/
+a{ 
+      text-decoration: none;
+  ;}  /*enlever les soulignements sur li*/
 
 main h1, main p {
     max-width: 800px; /* Limite la largeur du texte pour une meilleure lisibilité */
@@ -46,7 +51,15 @@ main h1, main p {
     margin-right: auto;
    
   }
-  img { width: 100%;
+  img { 
+         width: 100%;
          height: 500px;
            }
            
+       /* h1{
+          position: absolute;
+          top: 400px;
+          z-index: 10;
+          left: 40%;
+        } */
+        
