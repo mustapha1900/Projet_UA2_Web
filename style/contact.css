@@ -2,10 +2,14 @@
 
 header {
     background-color: #D3D3D3;
-   
-    text-align: center; 
-}
 
+}
+span { 
+    color:orange;
+}  /* pour le colorer la 2eme partie du logo*/
+span:hover {
+    color: black;
+}
 header a {
     color: black;
     text-decoration: none; 
@@ -15,11 +19,12 @@ header a:hover {
    color: orange;
 }
 
-h1 {
-    margin: 10px ; 
-    color: black; 
+.content-wrapper {
+    max-width: 800px; /* Limite la largeur du texte pour une meilleure lisibilité */
+    margin-left: auto; 
+    margin-right: auto;   
 }
-       
+
 body { 
         font-family: "Oswald" , Arial ; 
     }     
@@ -65,7 +70,44 @@ nav>ul>li{
     list-style: none;
 }
 a {
-    float: right;
+    
     margin: 10px;
 }
-/* a regler le header plutard*/
+
+.logo, nav , nav li {
+    display: inline-block; }
+
+nav{
+        margin-left: 165px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.sign-up-button {
+    background-color:gray;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: orange;
+}
+footer{  
+    background-color: #D3D3D3;
+   
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+a {  color: black;
+    text-decoration: none;
+}
+.span-footer{
+    color: black;
+}
+a:hover{
+    color: orange;
+}
