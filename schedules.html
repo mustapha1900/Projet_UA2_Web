@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="./style/contact.css">
+    <title>Schedules</title>
+    <link rel="stylesheet" href="./style/schedules.css">
 </head>
 <body>
     <header>
@@ -25,35 +25,50 @@
         </div>
     </header>
     <main>
-            <div class="h2-contact"><h2>Have questions? Contact us</h2></div>
-            <form action="#" method="post" id="contactForm">
-                <div>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Write your full name" required>
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Insert your Email" required>
-                </div>
-                <div>
-                    <label for="phone">Phone</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Insert you Phone number" required>
-                </div>
-                <div>
-                    <label for="contactPreference">Contact preference</label>
-                    <select name="contactPreference" id="contactPreference">
-                        <option value="email">Email</option>
-                        <option value="Phone">Phone</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="10" cols="50" placeholder="Write your message"  required></textarea>
-                </div>
-                <div>
-                    <button type="submit">Submit</button>
-                </div>
-            </form>
+        <h1>Class Schedules</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Class</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>8:00 AM</td>
+                    <td>Cardio Blast</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>6:30 PM</td>
+                    <td>Strength Training</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>10:00 AM</td>
+                    <td>Yoga</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>10:00 AM</td>
+                    <td>Work-out</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>1:00 PM</td>
+                    <td>Fitness</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>10:00 AM - 6:00 PM</td>
+                    <td>Endurance</td>
+                </tr>
+            </tbody>
+        </table>
+
     </main>
     <footer class="footer-section">
         <div class="content-wrapper">
