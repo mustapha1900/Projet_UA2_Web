@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
 
-.h2-contact {
-    text-align: center;
+
+header{
+    margin-bottom: 40px;
+ 
 }
 
-header {
-    background-color: #D3D3D3;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 
-}
 span { 
     color:orange;
 }  /* pour le colorer la 2eme partie du logo*/
 span:hover {
     color: black;
+    
 }
 header a {
-    color: black;
+    color: blanchedalmond;
     text-decoration: none; 
+  
+    
 }
 
 header a:hover {
@@ -32,11 +33,17 @@ header a:hover {
 
 body { 
         font-family: "Oswald" , Arial ; 
+        background-image: url(gym7.jpg);
+        background-position: center center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         padding: 0;
+         margin: 0; 
     }     
 form {
     max-width: 600px;
     margin:  auto;
-   background-color:#d1cece;
+   background-color:rgba(240, 240, 240, 0.8);
     padding: 20px;
     border-radius: 8px;
     box-shadow: #f4f4f4;
@@ -78,7 +85,6 @@ nav>ul>li{
     list-style: none;
 }
 a {
-    
     margin: 10px;
 }
 
@@ -105,17 +111,16 @@ nav{
     color: orange;
 }
 footer{  
-
-   background-color: #D3D3D3;
     text-align: center; 
     padding-top: 0px;
     padding-bottom: 0px;
+    margin-top: 250px;
 }
-a {  color: black;
+a {  color: blanchedalmond;
     text-decoration: none;
 }
 .span-footer{
-    color:black;
+    color:blanchedalmond;
 }
 a:hover{
     color: orange;
@@ -125,4 +130,15 @@ body{
     padding: 0;
     background-color: #f4f4f4;
     
+}
+.h2-contact{
+    color: blanchedalmond;
+    text-align: center;
+
+}
+.find-us-section{
+    color: antiquewhite;
+}
+.copyright-section{
+   color: antiquewhite;
 }
