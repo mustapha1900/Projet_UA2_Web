@@ -20,6 +20,7 @@ ce site a été réalisé par les Etudiants de Mr Diarra,inscrits dans le progra
 - `images/` : Dossier contenant les images du site.
 
 ## Copies d'Écran
-![Page d'Accueil](images/gym.jpg)
+![Page d'Accueil](Screenshot/Home.png)
+![Page Contact](Screenshot/contact.png)
 
 
