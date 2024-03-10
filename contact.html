@@ -17,7 +17,7 @@
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Classes</a></li>
-                    <li><a href="#">Schedules</a></li>
+                    <li><a href="./schedules.html">Schedules</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                     <li class="sign-up-button"><a href="./Signup.html">Sign up</a></li>
                 </ul>
@@ -25,7 +25,9 @@
         </div>
     </header>
     <main>
-            <div class="h2-contact"><h2>Have questions? Contact us</h2></div>
+            <div class="h2-contact"><h2>Have questions? Contact us</h2>
+            <section class="Question"><p>You can reach us through the form below. Fill in the details, and we'll get back to you as soon as possible</p></section>
+            </div>
             <form action="#" method="post" id="contactForm">
                 <div>
                     <label for="name">Name</label>
@@ -34,6 +36,13 @@
                 <div>
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Insert your Email" required>
+                </div>
+                <div>
+                    <label for="gender">Gender</label>
+                    <select name="gender" id="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
                 </div>
                 <div>
                     <label for="phone">Phone</label>

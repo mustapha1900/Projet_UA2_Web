@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
 
-.h2-contact {
-    text-align: center;
+
+header{
+    margin-bottom: 40px;
+ 
 }
 
-header {
-    background-color: #D3D3D3;
 
-}
 span { 
     color:orange;
 }  /* pour le colorer la 2eme partie du logo*/
 span:hover {
     color: black;
+    
 }
 header a {
-    color: black;
+    color: blanchedalmond;
     text-decoration: none; 
+  
+    
 }
 
 header a:hover {
@@ -28,9 +30,6 @@ header a:hover {
     margin-left: auto; 
     margin-right: auto;   
 }
-
-
-
 
 
 
@@ -65,17 +64,34 @@ header a:hover {
   border-bottom: 2px solid #333;
 }
 footer{  
-  background-color: #D3D3D3;
- 
+  text-align: center; 
   padding-top: 0px;
   padding-bottom: 0px;
+  margin-top: 250px;
 }
-a {  color: black;
+a {  color: blanchedalmond;
   text-decoration: none;
 }
 .span-footer{
-  color: black;
+  color:blanchedalmond;
 }
 a:hover{
   color: orange;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  
+}
+.h2-contact{
+  color: blanchedalmond;
+  text-align: center;
+
+}
+.find-us-section{
+  color: antiquewhite;
+}
+.copyright-section{
+ color: antiquewhite;
 }
