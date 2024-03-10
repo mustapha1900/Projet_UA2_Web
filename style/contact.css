@@ -36,7 +36,7 @@ body {
 form {
     max-width: 600px;
     margin:  auto;
-   background-color:#edeaea;
+   background-color:#d1cece;
     padding: 20px;
     border-radius: 8px;
     box-shadow: #f4f4f4;
@@ -61,7 +61,7 @@ select {
 }
 
 button {
-    background-color:orange;
+    background-color:black;
     color: #fff;
     padding: 10px;
     border: none;
@@ -123,8 +123,6 @@ a:hover{
 body{
     margin: 0;
     padding: 0;
-    background-color: #a6a2a2;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
+    background-color: #f4f4f4;
+    
 }
