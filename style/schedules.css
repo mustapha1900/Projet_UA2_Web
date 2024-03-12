@@ -28,16 +28,6 @@ header a:hover {
     margin-right: auto;   
 }
 
-body { 
-        font-family: "Oswald" , Arial ; 
-        background-image: url(gym2.jpg);
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-       
-    }     
-
-
     nav>ul>li{
       list-style: none;
   }
@@ -111,7 +101,13 @@ tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 body{
-    
+   font-family: "Oswald" , Arial ; 
+        background-image: url(gym2.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       font-family: "Oswald" , Arial 
+   
 }
 
 .tableau{
