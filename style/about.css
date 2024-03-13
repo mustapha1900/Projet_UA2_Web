@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
+
+
+span { 
+        color:orange;
+}  /* pour le colorer la 2eme partie du logo*/
+
+span:hover {
+        color: black;
+}
+
+
+body { 
+        font-family: "Oswald" , Arial ;
+         /*ajouter la nouveau uploader depuis googlefont*/
+         background-image: url(gym.jpg);
+         background-position: center center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         padding: 0;
+         margin: 0; 
+} 
+.logo, nav , nav li {
+        display: inline-block; }
+
+nav{
+        margin-left: 175px;
+}
+a {     color: blanchedalmond;
+        margin-right: 10px; 
+        text-decoration: none;
+       }   /*Pour espacer les li*/ 
+
+.logo {
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: bold;
+      color: blanchedalmond;
+      text-decoration: none;
+  }
+
+li { 
+      list-style: none;
+      margin-right: 10px;}  /*pour enlver les points associes avec li*/
+
+a:hover{
+    
+      color: orange;   /*quand on met le curseur sur a ca color en orange*/
+}
+
+.content-wrapper {
+        max-width: 800px; /* la largeur du texte pour avoir meilleure lisibilité */
+        margin-left: auto; /* Centre le texte à l'intérieur de la section */
+        margin-right: auto;
+}
+
+img { 
+         width: 400px;
+         height: 400px;
+         object-fit: cover;
+         margin-top: 4px;  } 
+
+footer{  /*margin-bottom: 0;*/
+        
+       text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 250px;
+}
+.span-footer{
+        color:blanchedalmond;
+}
+.sign-up-button {
+        background-color:gray;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        color: orange;
+   
+    }
+
+.article1 {
+        color: antiquewhite; 
+        width: 25%;
+        margin-left: 20px;
+
+}
+
+h1 {
+        color:grey;
+        margin-left: 20px;
+}        
+
+.article2{
+        color: antiquewhite;
+        width: 25%;
+        margin-left: 20px;
+}
+h2{
+        color: grey;
+        margin-left: 20px;
+}
+.find-us-section{
+         color: antiquewhite;
+}
+.copyright-section{
+        color: antiquewhite;
+}
+
+
+.box
+{
+        color: blanchedalmond;
+        width: 80%;
+        margin-left: 20px;
+}
+/*about*/
+.titreA
+{
+    color: rgb(255, 235, 205);
+    text-align: start;
+    font-size: 80px;
+    position: relative;
+    left: 47%;
+}
+/*us*/
+.titreB /*Defenit le style du titre B et son positionnement*/
+{
+    color: orange;
+    text-align: start;
+    font-size: 80px;
+    position: absolute;
+    left: 970px;
+    top: 58px;
+}
+/*texte paragraphe*/
+/*definit le style du text1*/
+.text1
+{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    left: 10%;
+}
+.text2
+{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    left: 10%;
+}
+/*button*/
+.plus
+{
+        background-color: transparent;
+        color: orange;
+        position: absolute;
+        width: 5%;
+        height: 5%;
+        right: 50%;
+        border-color: orange;
+}
+.plus:hover /*aggrandie l'element survolé qui est le boutton*/
+{
+        transform: scale(1.1); 
+        transition: transform 0.3s ease; 
+}
+    
