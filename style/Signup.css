@@ -32,17 +32,6 @@ header a:hover {
 }
 
 
-body { 
-        font-family: "Oswald" , Arial ; 
-        background-image: url(gym5.jpg);
-        background-position: center center;
-         background-size: cover;
-         background-repeat: no-repeat;
-         padding: 0;
-         margin: 0; 
-    }     
-
-
     nav>ul>li{
       list-style: none;
   }
@@ -66,25 +55,18 @@ body {
       text-decoration: none;
   }
   
-  .sign-up-button {
-      background-color:gray;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      color: orange;
-  }
+ 
 
 
-
-
-
-
-  body {
-   
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-  }
+  body { 
+    font-family: "Oswald" , Arial ; 
+    background-image: url(gym5.jpg);
+    background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     padding: 0;
+     margin: 0; 
+}     
   
   .container {
     max-width: 800px;
@@ -132,7 +114,17 @@ body {
     background-color: orange;
     transition: 1s;
   }
- 
+  .sign-up-button {
+    background-color:gray;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: orange;
+}
+
+ .link{
+  text-align: center;
+ }
 
 
 
