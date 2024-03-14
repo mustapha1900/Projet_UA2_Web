@@ -116,7 +116,9 @@ footer{
     padding-bottom: 0px;
     margin-top: 250px;
 }
-a {  color: blanchedalmond;
+
+a { 
+    color: blanchedalmond;
     text-decoration: none;
 }
 .span-footer{
@@ -125,12 +127,7 @@ a {  color: blanchedalmond;
 a:hover{
     color: orange;
 }
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    
-}
+
 .h2-contact{
     color: blanchedalmond;
     text-align: center;
