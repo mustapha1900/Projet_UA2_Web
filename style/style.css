@@ -65,7 +65,7 @@ footer{  /*margin-bottom: 0;*/
        text-align: center;
         padding-top: 0px;
         padding-bottom: 0px;
-        margin-top: 250px;
+        margin-top: 350px;
 }
 .span-footer{
         color:blanchedalmond;
@@ -82,27 +82,78 @@ footer{  /*margin-bottom: 0;*/
 .article1 {
         color: antiquewhite; 
         width: 25%;
-        margin-left: 20px;
+        margin-left: 40px;
 
 }
 
 h1 {
-        color:grey;
-        margin-left: 20px;
+        
+        margin-left: 40px;
 }        
 
 .article2{
         color: antiquewhite;
         width: 25%;
-        margin-left: 20px;
+        margin-left: 40px;
 }
-h2{
-        color: grey;
-        margin-left: 20px;
-}
+
 .find-us-section{
          color: antiquewhite;
 }
 .copyright-section{
         color: antiquewhite;
+}
+.testimonials-section{
+        text-align: left;
+        color: black;
+        width: 25%;
+        float: right;
+        padding-left: 20px;
+        background-color:rgba(240, 240, 240, 0.3);
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-right: 30px;
+}
+.special-offers-section{
+        text-align: center;
+        color:black;
+        width: 25%;
+        margin-top: 50px;
+        margin-left: 40px;
+        background-color:rgba(240, 240, 240, 0.3);
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+}
+.upcoming-events-section{
+        text-align: center;
+        color: black;
+        width: 25%;
+        height: 35%;
+        margin-left: 40px;
+        margin-top: 100px;
+        background-color:rgba(240, 240, 240, 0.3);
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+}
+
+h3{
+        margin: 0;
+}
+.P-upcoming-events{
+        margin-top: 0;
+}
+.p-special-offers{
+    margin-top: 0;
+}
+.h2-cpcoming-events  ,.h2-special-offers ,.h2-testimonial{
+ color: orange;
+}
+.h1-section-content ,.h2-article2{
+        color: orange;
+}
+.client-name{
+        font-weight: bold;
 }
