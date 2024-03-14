@@ -45,8 +45,27 @@ Des captures d'écran des différentes pages du site sont fournies pour donner u
 ![Page About-us](Screenshot/About%20us.png)
 ![Page Career](Screenshot/career.png)
 
-## Commentaires generaux
+## Auteurs du contenu du projet
 
+1/ Mustapha Toubal Seghir
+ -  creation de la page Home + Css
+ -  creation de la page contact + css
+ - Creation du  Header et footer de tout le site (HTML+CSS)
+ - design globale du site (couleurs, choix des images, theme)
+ - creation de la page readme
+ - creation du repositroy sur github
+
+ 2/Salaheddine Ziani
+ - creation de la page Schedules+css
+  -creation de la page classes+css
+
+  3/walid naim
+  -creation de la page Sign-up +css
+  -creation de la page membership +css
+
+  4/ Ismail hussain ali
+  -creation de la page about + css
+  -creation de la page career + css
 
 
 
