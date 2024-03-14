@@ -4,9 +4,6 @@
     text-align: center;
 }
 
-header {
-  
-}
 span { 
     color:orange;
 }  /* pour le colorer la 2eme partie du logo*/
@@ -14,7 +11,7 @@ span:hover {
     color: black;
 }
 header a {
-    color: black;
+    color: antiquewhite;
     text-decoration: none; 
 }
 
@@ -25,7 +22,7 @@ header a:hover {
     text-transform: uppercase;
     font-size: 25px;
     font-weight: bold;
-    color: black;
+    color: antiquewhite;
     text-decoration: none;
 }
 
@@ -79,11 +76,11 @@ body {
     padding-top: 0px;
     padding-bottom: 20px;
 }
-a {  color: black;
+a {  color: antiquewhite;
     text-decoration: none;
 }
 .span-footer{
-    color: black;
+    color: antiquewhite;
 }
 a:hover{
     color: orange;
@@ -96,7 +93,7 @@ h1 {
 }
 
 body{
-    background-image: url('p7.jpg');
+    background-image: url('gym8.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -107,12 +104,18 @@ body{
     height:fit-content;
     background-color:rgba(240, 240, 240, 0.6);
     margin: 20px auto;
-    
-    background-color: rgba(0, 123, 255, 0.1);
-   
-     width: 80%;
-
+    width: 80%;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin : 100px ;
 
 }
+.find-us-section{
+    color: antiquewhite;
+}
+.copyright-section{
+    color: antiquewhite;
+ }
