@@ -101,7 +101,7 @@ header a:hover {
     margin-bottom: 14px;
   }
   
-  input[type="submit"] {
+  button{
     background-color: black;
     color: white;
     padding: 12px 20px;
@@ -109,8 +109,7 @@ header a:hover {
     border-radius: 4px;
     cursor: pointer;
   }
-  
-  input[type="submit"]:hover {
+ button:hover {
     background-color: orange;
     transition: 1s;
   }
@@ -160,4 +159,7 @@ body{
 }
 .copyright-section{
    color: antiquewhite;
+}
+.span-footer:hover{
+  color: orange;
 }

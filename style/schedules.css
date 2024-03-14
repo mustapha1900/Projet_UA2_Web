@@ -4,9 +4,6 @@
     text-align: center;
 }
 
-header {
-  
-}
 span { 
     color:orange;
 }  /* pour le colorer la 2eme partie du logo*/
@@ -14,7 +11,7 @@ span:hover {
     color: black;
 }
 header a {
-    color: black;
+    color: antiquewhite;
     text-decoration: none; 
 }
 
@@ -48,7 +45,7 @@ header a:hover {
       text-transform: uppercase;
       font-size: 25px;
       font-weight: bold;
-      color: black;
+      color: antiquewhite;
       text-decoration: none;
   }
   
@@ -60,16 +57,16 @@ header a:hover {
       color: orange;
   }
   footer{  
-    background-color:rgba(240, 240, 240, 0.4);
+    margin-top: 40px;
     text-align: center;
     padding-top: 0px;
     padding-bottom: 20px;
 }
-a {  color: black;
+a {  color: antiquewhite;
     text-decoration: none;
 }
 .span-footer{
-    color: black;
+    color: antiquewhite;
 }
 a:hover{
     color: orange;
@@ -77,7 +74,7 @@ a:hover{
 
 
 h1 {
-    color:black;
+    color:antiquewhite;
     text-align: center;
 }
 
@@ -93,17 +90,15 @@ th, td {
     text-align: left;
 }
 
-th {
-    background-color: orange;
+td {
+    
     color: #fff;
 }
 
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
+
 body{
    font-family: "Oswald" , Arial ; 
-        background-image: url(gym2.jpg);
+        background-image: url(gym10.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -112,13 +107,21 @@ body{
 }
 
 .tableau{
-    background-color:rgba(240, 240, 240, 0.6);
     margin: 20px auto;
-    
-    background-color: #ece5e5;
-   
-     width: 80%;
-
+    width: 80%;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.span-footer:hover{
+    color: orange;
+}
+.find-us-section{
+    color: antiquewhite;
+}
+.copyright-section{
+   color: antiquewhite;
+}
+
+.ligne1{
+    background-color: gray;
 }
