@@ -71,7 +71,7 @@ body {
       color: orange;
   }
   footer{  
-    background-color:rgba(144, 142, 142, 0.4);
+    margin-top: 30px;
     text-align: center;
     padding-top: 0px;
     padding-bottom: 20px;
@@ -110,7 +110,7 @@ body{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin : 100px ;
+    margin-top : 50px ;
 
 }
 .find-us-section{
@@ -119,3 +119,9 @@ body{
 .copyright-section{
     color: antiquewhite;
  }
+ .span-footer:hover{
+    color: orange;
+}
+h1{
+    color: antiquewhite;
+}

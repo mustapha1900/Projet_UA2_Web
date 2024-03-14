@@ -43,7 +43,7 @@ body {
 form {
     max-width: 600px;
     margin:  auto;
-   background-color:rgba(240, 240, 240, 0.8);
+   background-color:rgba(240, 240, 240, 0.4);
     padding: 20px;
     border-radius: 8px;
     box-shadow: #f4f4f4;
@@ -138,4 +138,7 @@ a:hover{
 }
 .copyright-section{
    color: antiquewhite;
+}
+.span-footer:hover{
+    color: orange;
 }
