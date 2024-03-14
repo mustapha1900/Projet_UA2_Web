@@ -37,7 +37,7 @@ Ce projet est structuré de manière à rendre la navigation et le développemen
 
 Des captures d'écran des différentes pages du site sont fournies pour donner un aperçu visuel de l'apparence du site.
 ![Page d'Accueil](Screenshot/index.png)
-![Page Contact](Screenshot/Contact.png)
+![Page contact](Screenshot/contact2.png)
 ![Page sign-up](Screenshot/sign%20up.png)
 ![Page Membership](Screenshot/membership.png)
 ![Page Classes](Screenshot/classes.png)
@@ -57,15 +57,15 @@ Des captures d'écran des différentes pages du site sont fournies pour donner u
 
  2/Salaheddine Ziani
  - creation de la page Schedules+css
-  -creation de la page classes+css
+ - creation de la page classes+css
 
   3/walid naim
-  -creation de la page Sign-up +css
-  -creation de la page membership +css
+ - creation de la page Sign-up +css
+ - creation de la page membership +css
 
   4/ Ismail hussain ali
-  -creation de la page about + css
-  -creation de la page career + css
+- creation de la page about + css
+- creation de la page career + css
 
 
 
