@@ -1,35 +1,20 @@
+                           /*cette page a été crée par Mustapha Toubal Seghir*/
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
 
 
-span { 
-        color:orange;
-}  /* pour le colorer la 2eme partie du logo*/
-
-span:hover {
-        color: black;
-}
-
-
-body { 
-        font-family: "Oswald" , Arial ;
-         /*ajouter la nouveau uploader depuis googlefont*/
-         background-image: url(gym.jpg);
-         background-position: center center;
-         background-size: cover;
-         background-repeat: no-repeat;
-         padding: 0;
-         margin: 0; 
-} 
+                           /*code css de la partie Header*/
 .logo, nav , nav li {
-        display: inline-block; }
+        display: inline-block; 
+        }
 
 nav{
         margin-left: 175px;
-}
+        }
 a {     color: blanchedalmond;
         margin-right: 10px; 
         text-decoration: none;
-       }   /*Pour espacer les li*/ 
+       }   
 
 .logo {
       text-transform: uppercase;
@@ -37,72 +22,70 @@ a {     color: blanchedalmond;
       font-weight: bold;
       color: blanchedalmond;
       text-decoration: none;
-  }
+        }
 
 li { 
       list-style: none;
-      margin-right: 10px;}  /*pour enlver les points associes avec li*/
+      margin-right: 10px;
+        }  
 
 a:hover{
     
-      color: orange;   /*quand on met le curseur sur a ca color en orange*/
-}
+      color: orange;   
+        }
+
+
+span { 
+        color:orange;
+        } 
+
+span:hover {
+        color: black;
+        }
+
+.sign-up-button {
+                background-color:gray;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                color: orange;
+           
+                }                      
+                           /*code css de la partie Main*/
+body { 
+        font-family: "Oswald" , Arial ;
+         background-image: url(gym.jpg);
+         background-position: center center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         padding: 0;
+         margin: 0; 
+        } 
 
 .content-wrapper {
-        max-width: 800px; /* Limite la largeur du texte pour une meilleure lisibilité */
-        margin-left: auto; /* Centre le texte à l'intérieur de la section */
+        max-width: 800px; 
+        margin-left: auto; 
         margin-right: auto;
 }
 
-img { 
-         width: 400px;
-         height: 400px;
-         object-fit: cover;
-         margin-top: 4px;  } 
-
-footer{  /*margin-bottom: 0;*/
-        
-       text-align: center;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        margin-top: 350px;
-}
-.span-footer{
-        color:blanchedalmond;
-}
-.sign-up-button {
-        background-color:gray;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-        color: orange;
-   
-    }
+ h1     {
+                margin-left: 40px;
+        } 
 
 .article1 {
         color: antiquewhite; 
         width: 25%;
         margin-left: 40px;
 
-}
-
-h1 {
-        
-        margin-left: 40px;
-}        
+        }              
 
 .article2{
         color: antiquewhite;
         width: 25%;
         margin-left: 40px;
-}
+        }
 
-.find-us-section{
-         color: antiquewhite;
-}
-.copyright-section{
-        color: antiquewhite;
-}
+
 .testimonials-section{
         text-align: left;
         color: black;
@@ -114,7 +97,7 @@ h1 {
         border-radius: 4px;
         box-sizing: border-box;
         margin-right: 30px;
-}
+        }
 .special-offers-section{
         text-align: center;
         color:black;
@@ -125,7 +108,7 @@ h1 {
         border: 1px solid #ccc;
         border-radius: 4px;
         box-sizing: border-box;
-}
+        }
 .upcoming-events-section{
         text-align: center;
         color: black;
@@ -137,26 +120,42 @@ h1 {
         border: 1px solid #ccc;
         border-radius: 4px;
         box-sizing: border-box;
-}
-
-h3{
+        }
+h3 {
         margin: 0;
-}
+        }
 .P-upcoming-events{
         margin-top: 0;
-}
+        }
 .p-special-offers{
     margin-top: 0;
-}
+        }
 .h2-cpcoming-events  ,.h2-special-offers ,.h2-testimonial{
  color: orange;
-}
+        }
 .h1-section-content ,.h2-article2{
         color: orange;
-}
+        }
 .client-name{
         font-weight: bold;
-}
+        }
+                        /*code css de la partie footer*/
+
 .span-footer:hover{
         color: orange;
-    }
+        }
+footer{  
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 350px;               
+        }
+.span-footer{
+                color:blanchedalmond;
+        }                                                                                       
+.find-us-section{
+                color: antiquewhite;
+               }
+.copyright-section{
+               color: antiquewhite;
+               }

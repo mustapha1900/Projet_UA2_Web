@@ -1,3 +1,4 @@
+        <!-- cette page a été crée par Mustapha Toubal Seghir  -->
 # Projet_UA2_Web
 # Training Studio Gym
 
@@ -8,7 +9,11 @@ ce site a été réalisé par les Etudiants de Mr Diarra,inscrits dans le progra
 1/ Chef de projet : Mustapha toubal seghir
 2/ collaborateurs : Salaheddine Ziani / Walid Naim / Ismail hussain ali
 
-## Structure du Projet
+## Contenue du site
+
+Ce site represente un site de notre salle de gym qui porte le nom de TRAINING STUDIO, il contient toutes les information necessaire pour un client afin de lui permetre de s'inscrire a la salle, de voir les differents programmes qu'on propose, les horraires , les coachs, ainsi que les formulaire necessaires pour prendre contact avec notre gym.
+
+## Structure du Projet " Partie HTML"
 
 Ce projet est structuré de manière à rendre la navigation et le développement plus organisés. Voici une brève description des principaux fichiers et dossiers
 
@@ -20,7 +25,7 @@ Ce projet est structuré de manière à rendre la navigation et le développemen
 - `Classes.html` : les differents programmes offert par notre salle de gym.
 - `About us.html`: Connaitre l'histoire de notre salle de gym et sa creation.
 
-
+##                   "Partie CSS"
 - `style.css` : Feuille de style CSS principale de la page home.
 - `contact.css`: feuille de style css pour la page contact.
 - `Schedules.css`: feuille de style css pour la page schedules.
@@ -33,9 +38,11 @@ Ce projet est structuré de manière à rendre la navigation et le développemen
 - `images/` : Dossier contenant les images du site.
 - `style/` : Dossier contenant toutes les images du background ainsi que les css des differentes pages.
 
-## Copies d'Écran
+## Captures d'Écran
 
-Des captures d'écran des différentes pages du site sont fournies pour donner un aperçu visuel de l'apparence du site.
+Des captures d'écran des différentes pages du site sont fournies pour vous donner un aperçu visuel de l'apparence de notre site.
+
+
 ![Page d'Accueil](Screenshot/index.png)
 ![Page contact](Screenshot/contact2.png)
 ![Page sign-up](Screenshot/sign%20up.png)
@@ -48,12 +55,12 @@ Des captures d'écran des différentes pages du site sont fournies pour donner u
 ## Auteurs du contenu du projet
 
 1/ Mustapha Toubal Seghir
- -  creation de la page Home + Css
- -  creation de la page contact + css
- - Creation du  Header et footer de tout le site (HTML+CSS)
+ - creation de la page Home Html+ Css
+ - creation de la page contact Html+ css
+ - creation du  Header et footer de tout le site (HTML+CSS)
  - design globale du site (couleurs, choix des images, theme)
- - creation de la page readme
- - creation du repositroy sur github
+ - creation de la page et le contenu du readme
+ - creation du repository sur github
 
  2/Salaheddine Ziani
  - creation de la page Schedules+css
