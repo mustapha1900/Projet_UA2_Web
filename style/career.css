@@ -2,7 +2,6 @@
 
 body {
     font-family: "Oswald" , Arial ;
-    /*ajouter la nouveau uploader depuis googlefont*/
     background-image: url(gym.jpg);
     background-position: center center;
     background-size: cover;
@@ -12,7 +11,7 @@ body {
 }
 span { 
     color:orange;
-}  /* pour le colorer la 2eme partie du logo*/
+}  
 
 span:hover {
     color: black;
@@ -27,7 +26,7 @@ nav{
 a {     color: blanchedalmond;
     margin-right: 10px; 
     text-decoration: none;
-   }   /*Pour espacer les li*/ 
+   }   
 
 .logo {
   text-transform: uppercase;
@@ -39,16 +38,16 @@ a {     color: blanchedalmond;
 
 li { 
   list-style: none;
-  margin-right: 10px;}  /*pour enlver les points associes avec li*/
+  margin-right: 10px;}  
 
 a:hover{
 
-  color: orange;   /*quand on met le curseur sur a ca color en orange*/
+  color: orange;  
 }
 
 .content-wrapper {
-    max-width: 800px; /* Limite la largeur du texte pour une meilleure lisibilité */
-    margin-left: auto; /* Centre le texte à l'intérieur de la section */
+    max-width: 800px; 
+    margin-left: auto; 
     margin-right: auto;
 }
 
@@ -58,7 +57,7 @@ img {
      object-fit: cover;
      margin-top: 4px;  } 
 
-footer{  /*margin-bottom: 0;*/
+footer{  
     
    text-align: center;
     padding-top: 0px;
